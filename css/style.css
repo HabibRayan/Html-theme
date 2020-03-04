@@ -1,0 +1,293 @@
+/*General*/
+
+.vertically-top{
+
+    vertical-align: top;
+
+}
+
+.vertically-center{
+
+    vertical-align: center;
+
+}
+
+.vertically-bottom{
+
+    vertical-align: bottom;
+
+}
+
+.margin-center{
+
+    margin: 0 auto;
+
+}
+
+.text-center{
+
+    text-align: center;
+
+}
+
+.text-right{
+
+    text-align: right;
+
+}
+
+.text-left{
+
+    text-align: left;
+
+}
+
+.bold{
+
+    font-weight: bold;
+
+}
+
+/*Desktop Grid*/
+
+.devsnest-container{
+
+    width: 100%;
+
+    position: relative;
+
+    clear: both;
+
+}
+
+.d100{
+
+    width: 100%;
+
+    display: inline-block;
+
+}
+
+.d90{
+
+    width: 90%;
+
+    display: inline-block;
+
+}
+
+.d80{
+
+    width: 79.5%;
+
+    display: inline-block;
+
+}
+
+.d75{
+
+    width: 74.5%;
+
+    display: inline-block;
+
+}
+
+.d70{
+
+    width: 70%;
+
+    display: inline-block;
+
+}
+
+.d50{
+
+    width: 48%;
+
+    display: inline-block;
+
+}
+
+.d33{
+
+    width: 33%;
+
+    display: inline-block;
+
+}
+
+.d25{
+
+    width: 24.5%;
+
+    display: inline-block;
+
+}
+
+.d20{
+
+    width: 18%;
+
+    display: inline-block;
+
+}
+
+
+
+/*Tablets*/
+
+@media only screen and (min-width: 600px) and (max-width: 767px){
+
+    .t100{
+
+        width: 100%;
+
+        display: inline-block;
+
+    }
+
+    .t90{
+
+        width: 90%;
+
+        display: inline-block;
+
+    }
+
+    .t80{
+
+        width: 79.5%;
+
+        display: inline-block;
+
+    }
+
+    .t75{
+
+        width: 74.5%;
+
+        display: inline-block;
+
+    }
+
+    .t70{
+
+        width: 70%;
+
+        display: inline-block;
+
+    }
+
+    .t50{
+
+        width: 49.5%;
+
+        display: inline-block;
+
+    }
+
+    .t33{
+
+        width: 32.5%;
+
+        display: inline-block;
+
+    }
+
+    .t25{
+
+        width: 24.5%;
+
+        display: inline-block;
+
+    }
+
+    .t25{
+
+        width: 19.5%;
+
+        display: inline-block;
+
+    }
+
+}
+
+
+
+/*Mobile*/
+
+@media only screen and (min-width: 600px) and (max-width: 767px){
+
+    .s100{
+
+        width: 100%;
+
+        display: inline-block;
+
+    }
+
+    .s90{
+
+        width: 90%;
+
+        display: inline-block;
+
+    }
+
+    .s80{
+
+        width: 79.5%;
+
+        display: inline-block;
+
+    }
+
+    .s75{
+
+        width: 74.5%;
+
+        display: inline-block;
+
+    }
+
+    .s70{
+
+        width: 70%;
+
+        display: inline-block;
+
+    }
+
+    .s50{
+
+        width: 49.5%;
+
+        display: inline-block;
+
+    }
+
+    .s33{
+
+        width: 32.5%;
+
+        display: inline-block;
+
+    }
+
+    .s25{
+
+        width: 24.5%;
+
+        display: inline-block;
+
+    }
+
+    .s25{
+
+        width: 19.5%;
+
+        display: inline-block;
+
+    }
+
+}
