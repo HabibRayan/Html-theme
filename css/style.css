@@ -99,6 +99,13 @@
     display: inline-block;
 
 }
+.d60{
+
+    width: 59.5%;
+
+    display: inline-block;
+
+}
 
 .d50{
 
@@ -110,7 +117,23 @@
 
 .d33{
 
-    width: 33%;
+     width: 33%;
+
+     display: inline-block;
+
+ }
+
+.d40{
+
+     width: 39.5%;
+
+     display: inline-block;
+
+ }
+
+.d30{
+
+    width: 30%;
 
     display: inline-block;
 
