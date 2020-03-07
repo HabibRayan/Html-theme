@@ -482,3 +482,29 @@ section.your-business .row {
     padding-top: 70px;
     margin-top: 30px;
 }
+
+/*team member*/
+
+section.team {
+    padding-top: 50px;
+}
+
+.team-header {
+    padding-bottom: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+.team-header .team-title {
+    font-size: 36px;
+    color: black;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.team-footer {
+    background: green;
+    color: white;
+}
