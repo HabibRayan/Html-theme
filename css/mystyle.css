@@ -451,3 +451,34 @@ div#myBtnContainer {
 section.your-business .row {
     padding-bottom: 30px;
 }
+
+/*ribbon section*/
+
+.ribbon-background {
+    background-image: url("../img/ribbon.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    z-index: -1;
+    text-align: center;
+
+
+}
+.ribbon .container {
+    position: relative;
+    z-index: 999;
+}
+
+.ribbon-button button {
+    background-color: green;
+    color: white;
+    padding: 15px 50px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 70px;
+}
+.ribbon .d100 {
+    padding-top: 70px;
+    margin-top: 30px;
+}
