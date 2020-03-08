@@ -508,3 +508,104 @@ section.team {
     background: green;
     color: white;
 }
+
+/*.team-member figure {*/
+/*    position: relative;*/
+/*    overflow: hidden;*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+
+
+/*}*/
+
+.team-member img
+ {
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+/*.team-member figcaption {*/
+/*    padding: 50px;*/
+/*    color: transparent;*/
+/*    background-color: transparent;*/
+/*    position: absolute;*/
+/*    z-index: 999;*/
+/*    bottom: 0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    height: 0;*/
+/*    overflow: hidden;*/
+/*    visibility: hidden;*/
+/*    transition: all 0.3s ease-in-out;*/
+/*}*/
+
+/*.team-member figure:hover figcaption{*/
+/*    visibility: visible;*/
+/*    color: #fff;*/
+/*    background: rgba(230, 78, 62, 0.9);*/
+/*    height: 100%;*/
+/*}*/
+
+/*.team-member figure:hover .social-icon {*/
+/*    visibility: visible;*/
+/*    color: #fff;*/
+/*    background: rgba(230, 78, 62, 0.9);*/
+/*    padding-top: 100px;*/
+/*}*/
+
+
+.team-member{
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+
+}
+
+.team-member:hover .team-content{
+    opacity: 1;
+}
+
+.team-content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    height: 100%;
+}
+
+.team-content .team-title {
+    padding-top: 30px;
+}
+
+.team-content .team-title span {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.team-content .team-body-text {
+    font-size: 14px;
+    padding: 20px 20px;
+}
+
+.team-content .team-subtitle {
+    font-size: 16px;
+}
+
+.team-social-icon {
+    position: absolute;
+    bottom: 0;
+    background: green;
+    color: white;padding: 5px 0;
+    width: 100%;
+}
+.team-social-icon .txt-white{
+    color: white;
+}
