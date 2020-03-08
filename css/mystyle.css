@@ -455,13 +455,14 @@ section.your-business .row {
 /*ribbon section*/
 
 .ribbon-background {
-    background-image: url("../img/ribbon.png");
+    background-image: url("../img/ribbon02.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 300px;
+    height: 250px;
     z-index: -1;
     text-align: center;
+    border-bottom: 5px solid green;
 
 
 }
@@ -476,11 +477,17 @@ section.your-business .row {
     padding: 15px 50px;
     border-radius: 20px;
     border: none;
-    margin-top: 70px;
+    margin-top: 90px;
 }
 .ribbon .d100 {
     padding-top: 70px;
     margin-top: 30px;
+}
+
+.ribbon .ribbon-title, .blog-title {
+    font-weight: 600;
+    color: white;
+    font-size: 25px;
 }
 
 /*team member*/
@@ -489,7 +496,7 @@ section.team {
     padding-top: 50px;
 }
 
-.team-header {
+.team-header, .blog-header{
     padding-bottom: 40px;
     text-align: center;
     margin-bottom: 20px;
@@ -497,7 +504,7 @@ section.team {
 
 
 
-.team-header .team-title {
+.team-header .team-title , .blog-title{
     font-size: 36px;
     color: black;
     font-weight: 600;
@@ -508,3 +515,45 @@ section.team {
     background: green;
     color: white;
 }
+
+/*blog section*/
+
+.blog {
+    padding-bottom: 50px;
+
+}
+
+.blog img{
+    width: 100%;
+}
+
+.blog .d70 .row {
+    padding-right: 10px;
+}
+.blog .d30 .row {
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.blog .content {
+    padding-top: 7px;
+    padding-left: 15px;
+    color: #262626;
+    width: 100%;
+    background-color: #d5d5d5;
+}
+
+.blog .content a, .blog-content{
+    text-decoration:none;
+    color: green;
+}
+.blog-content {
+    padding-top: 35px;
+    color: #262626;
+    width: 100%;
+}
+.blog-txt {
+    padding-top: 20px;
+}
+
+/*logo image slide*/

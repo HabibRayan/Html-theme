@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <title>Home :: biznes</title>
 
+
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/mystyle.css" type="text/css">
 
+
+
     <link rel="stylesheet" href="fontawesome/css/all.css">
     <script src="fontawesome/js/all.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://www.24limousine.com/wp-content/themes/24Limousine/assets/css/owl.carousel.min.css">
 
 </head>
 <body>
@@ -425,64 +429,55 @@
 <!--start your business end-->
 
 
-<section class="team">
+<!--blog section -->
+<section class="blog">
     <div class="container">
         <div class="row">
             <div class="d100">
-                <div class="team-header">
+                <div class="blog-header">
                     <div class="subtitle">
-                        GET TO KNOW OUR Our
+                        POST FROM
                     </div>
-                    <div class="team-title">
-                        Team<span style="color: #4CAF50"> Members</span>
+                    <div class="blog-title">
+                        Our<span style="color: #4CAF50"> Blog</span>
                     </div>
-                    <hr align="center" width="10%" style="height:2px; background: #4CAF50">
+                    <hr align="center" width="5%" style="height:2px; background: #4CAF50">
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="d100">
-                <div class="d25">
-                    <div class="content">
-                        <img src="img/team01.jpg" class="team-img" alt="Team" style="width: 100%">
-                        <div class="middle">
-                            <a href="#"><div class="txt">Details</div></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="d25">
-                    <div class="content">
-                        <img src="img/team02.jpg" class="team-img" alt="Team" style="width: 100%">
-                        <div class="middle">
-                            <a href="#"><div class="txt">Details</div></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="d25">
-                    <div class="content">
-                        <img src="img/team03.jpg" class="team-img" alt="Team" style="width: 100%">
-                        <div class="middle">
-                            <a href="#"><div class="team-txt">Md Rayan</div></a>
-                            <a href="#"><div class="team-txt">Manager</div></a>
-                            <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            </p>
+            <div class="d70">
+                <div class="row">
+                    <img src="img/blog01.png">
+                    <div class="blog-content">
+                        <strong>
+                            Amazing Mini Blog Title Here
+                        </strong> <br>
+                        <span>by <a href="">Jons Sharif</a> </span>
+                        <div class="blog-txt">
+                            <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </p>
 
-                            <div class="team-footer">
-                                <i class="fab fa-facebook"></i>
-                                <i class="fab fa-twitter"></i>
-                                <i class="fab fa-instagram"></i>
-                                <i class="fab fa-linkedin-in"></i>
-                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="d25">
+            </div>
+            <div class="d30">
+                <div class="row">
+                    <img src="img/blog03.png" style="height: 110px">
                     <div class="content">
-                        <img src="img/team04.jpg" class="team-img" alt="Team" style="width: 100%">
-                        <div class="middle">
-                            <a href="#"><div class="txt">Details</div></a>
-                        </div>
+                        <strong>
+                            Amazing Mini Blog Title Here
+                        </strong> <br>
+                        <span>by <a href="">Jons Sharif</a> </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="img/blog02.png" style="height: 110px">
+                    <div class="content">
+                        <strong>
+                            Amazing Mini Blog Title Here
+                        </strong> <br>
+                        <span>by <a href="">Jons Sharif</a> </span>
                     </div>
                 </div>
             </div>
@@ -490,7 +485,46 @@
     </div>
 </section>
 
+<!--our blog end -->
+
+<!--bran icon start-->
+
+<section class="brand-icon">
+    <div class="container">
+        <div class="row">
+
+        </div>
+    </div>
+</section>
+
+
 <script>
+
+    // logo image slider
+
+    /**********************/
+    /*	Client carousel   */
+    /**********************/
+    $(document).ready(function() {
+        $('#client-logos').owlCarousel({
+            loop:true,
+            margin:15,
+            nav:true,
+            responsive:{
+                0:{
+                    items:2
+                },
+                600:{
+                    items:4
+                },
+                1000:{
+                    items:6
+                }
+            },
+            navText: ["<img src='http://pixsector.com/cache/a8009c95/av8a49a4f81c3318dc69d.png'/>","<img src='http://pixsector.com/cache/81183b13/avcc910c4ee5888b858fe.png'/>"]
+        });
+
+    });
 
     // recent work
 
@@ -556,6 +590,10 @@
 
     document.getElementById("defaultOpen").click();
 </script>
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://www.24limousine.com/wp-content/themes/24Limousine/assets/js/owl.carousel.min.js"></script>
 
 </body>
 </html>
