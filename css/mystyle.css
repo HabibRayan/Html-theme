@@ -643,7 +643,89 @@ section.team {
 
 /*footer */
 
+.footer-social .txt-white {
+    color: white;
+}
+
+.footer-social {
+    text-align: center;
+}
 
 .footer-img img {
     width: 100%;
 }
+.footer-left {
+    width: 25%;
+    background: #303030;
+    height: 250px;
+    padding-top: 50px;
+    padding-right: 15px;
+    float: left;
+}
+/*.footer-padding {*/
+/*    margin-left: 142px*/
+/*}*/
+
+.footer-right {
+    width: 73.8%;
+    background: #262626;
+    float: left;
+    color: #6D6D6D;
+    font-size: 14px;
+}
+.footer .pt35 {
+    padding-top: 35px;
+    padding-left: 15px;
+}
+
+.pb10 {
+    padding-bottom: 10px;
+}
+
+.pr10 {
+    padding-right: 10px;
+}
+.pr5 {
+    padding-right: 5px;
+}
+
+/*footer form */
+
+.footer-form {
+    width: 100%;
+    border: 1px solid #656565;
+    border-radius: 20px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 0.3s;
+    background: #262626
+
+}
+.footer-form:focus {
+    border-color: gray;
+    box-shadow: 0 0 8px 0 gray;
+}
+
+.footer-forms .footer-form {
+    padding-right: 40px;
+}
+
+.footer-forms {
+    position: relative;
+}
+
+.footer-forms .footer-icon {
+    position: absolute;
+    right: 0;
+    top: 8px;
+    padding: 9px 8px;
+    color: gray;
+    transition: 0.3s;
+    margin-right: 10px;
+
+}
+
+/*footer form end */
+
